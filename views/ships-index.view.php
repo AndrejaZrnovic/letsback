@@ -1,16 +1,11 @@
 <?php require_once "views/partials/header.php"; ?>
 
-<div class="container-fluid">
-    <div class="mb-3">
-        <div class="card-title text-black bg-light mb-3" style="main-width: 20rem;">
-            <div class="card-header"><h2>Ports:</h2></div>
-            <div class="card-body">
-                <a href="/ports/create" class="btn btn-info">Add new Post</a>
-            </div>
-        </div>
+<div class="container-fluid table">
+    <div class="tableTitle">
+        <a href="/ships/create" class="btn btn-info">Add new Post</a>
     </div>
-    <div class="row">
-        <div class="col-12">
+    <div class="row wrapperTable">
+        <div class="col-12 md-6">
             <table class="table">
                 <thead class="thead-dark">
                 <tr>
@@ -35,7 +30,6 @@
     </div>
 </div>
 
-</body>
-</html>
 
+<?php require_once "views/partials/user.php";?>
 <?php require_once "views/partials/footer.php"; ?>

@@ -14,8 +14,7 @@
             <a href="/cargos" class="nav-link active">Cargos</a>
             <a href="/orders" class="nav-link active">Orders</a>
             <a href="/users" class="nav-link active">Users</a>
-            <a href="/login" class="nav-link active">Log In</a>
-            <a href="/register" class="nav-link active">Register</a>
+
         </div>
     </div>
 </nav>

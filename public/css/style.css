@@ -1,3 +1,30 @@
+.table{
+    margin-left:350px
+
+}
+
+.wrapperTable{
+    width: 1130px;
+}
+
+.tableTitle{
+    width:200px;
+    margin-left:350px;
+    padding:10px 0 20px 20px;
+    border: 1.5px solid black;
+    width: 1100px;
+    background-color:grey;
+    margin-top:40px;
+    /*border-radius: 25px;*/
+
+
+}
+
+.tableTitle h2{
+    /*border-bottom: 1px solid black;*/
+    margin-bottom: 20px;
+}
+
 .navbar {
     background-color: #205b97;
     margin-bottom:10px;
@@ -19,16 +46,54 @@
 
 
 .navbar-nav {
-    margin: 0 auto;
-
+    margin:0 auto;
 
 }
+
+.navbar-nav{
+
+}
+
 
 .navbar-nav a {
     margin-right: 25px;
     font-weight:bold;
     color: white !important ;
 }
+
+.user{
+    border:1px solid black;
+    width:300px;
+    height:150px;
+    position:absolute;
+    top:100px;
+    left: 30px;
+    background-color: #343a40;
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+/*.avatar{*/
+/*    border:1px solid white;*/
+/*    border-radius: 50%;*/
+/*}*/
+
+.info{
+    border:1px solid black;
+    width:300px;
+    height:250px;
+    position:absolute;
+    top:250px;
+    left: 30px;
+
+}
+
+.moreInfo{
+    border-bottom: 1px solid black;
+}
+
 
 /*----------------------------INDEX VIEW--------------------*/
 
@@ -67,22 +132,21 @@
 
 }
 
-.card-register{
+.register{
     margin:0 auto;
-    margin-top:100px;
-
-}
-
-.wrapper{
+    margin-top:50px;
+    width:370px;
+    height:470px;
     border:1px solid black;
-    margin-top:100px;
-    background-image: url("../public/assets/bckground.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 100%;
-
+    padding:10px 20px 0 20px;
 
 }
+
+.register h3{
+    text-align: center;
+
+}
+
 
 /*------------FOOTER-------------*/
 

@@ -101,6 +101,8 @@ $router->get('register', 'AuthController@register_form');
 $router->post('register', 'AuthController@register');
 $router->get('logout', 'AuthController@logout');
 
+$router->get('contact', 'PagesController@contact');
+
 
 
 

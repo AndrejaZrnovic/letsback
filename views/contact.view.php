@@ -1,4 +1,6 @@
 <?php require_once  "views/partials/header.php" ?>
+
+
 <h1>Contact Us</h1>
 <form action="/contact-submit" method ="POST">
     <div class="form-group">
