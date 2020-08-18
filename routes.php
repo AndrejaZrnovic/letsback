@@ -2,7 +2,7 @@
 
 //SHIPS
 
-$router->get('  ','PagesController@home');
+$router->get('','PagesController@home');
 $router->get('ships', 'ShipsController@index');
 $router->get('ships/create', 'ShipsController@create');
 $router->post('ships', 'ShipsController@store');
