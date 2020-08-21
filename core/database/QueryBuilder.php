@@ -56,7 +56,8 @@ class QueryBuilder
 
         $query = $this->pdo->prepare($sql);
 
-        $query->execute($data);
+       $temp = $query->execute($data);
+
 
     }
 

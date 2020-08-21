@@ -3,7 +3,7 @@
 namespace App\Controllers;
 use App\Core\App;
 
-class CargosController
+class  CargosController
 {
 
     public function index()

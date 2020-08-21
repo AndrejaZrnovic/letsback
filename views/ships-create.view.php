@@ -1,7 +1,7 @@
 
 <?php require_once "views/partials/header.php"; ?>
 
-<div class="container-fluid">
+<div class="container-fluid ">
     <form action="/ships" method="post">
         <div class="form-group">
             <label for="name">Name</label>
@@ -17,4 +17,4 @@
     </form>
 </div>
 
-<?php require_once "views/partials/header.php"; ?>
+<?php require_once "views/partials/footer.php"; ?>

@@ -37,7 +37,8 @@ class AuthController {
 
         App::get('database')->insert('users', $_POST);
 
-        dd('Replace this with rederict to protected area of your web app');
+//        dd('Replace this with rederict to protected area of your web app');
+        return redirect('/login');
     }
 
     public function logout()

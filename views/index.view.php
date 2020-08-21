@@ -1,10 +1,14 @@
 <?php require_once "views/partials/header.php"; ?>
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-4">
-            <div class="card bg-primary">
-                <div class="card-body">
+
+<div class="col-3">
+    <?php require_once "views/partials/user.php";?>
+</div>
+<div class="col-9">
+    <div class="container-fluid fourDivsMainPage">
+        <div class="row">
+            <div class="col-6">
+                <div class="card bg-primary">
                     <h4 class="card-title">Ship departured:</h4>
                     <h2>300</h2>
                     <h4 class="card-title">Last week:</h4>
@@ -15,30 +19,8 @@
                             <path fill-rule="evenodd" d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z"/>
                         </svg>
                     </div>
-
                 </div>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="card bg-danger">
-                <div class="card-body">
-                    <h4 class="card-title">Cargo imported today:</h4>
-                    <h2>5000</h2>
-                    <h4 class="card-title">Last week:</h4>
-                    <h2>10.000</h2>
-                    <div class="icon">
-                        <svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-box-seam" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/>
-                        </svg>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-4">
-            <div class="card bg-warning">
-                <div class="card-body">
+                <div class="card bg-warning">
                     <h4 class="card-title">Orders made today:</h4>
                     <h2>200</h2>
                     <h4 class="card-title">Last week:</h4>
@@ -52,12 +34,21 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="card bg-success">
-                <div class="card-body">
+            <div class=" col-6">
+                <div class="card bg-danger">
+                    <h4 class="card-title">Cargo imported today:</h4>
+                    <h2>5000</h2>
+                    <h4 class="card-title">Last week:</h4>
+                    <h2>10.000</h2>
+                    <div class="icon">
+                        <svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-box-seam" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="card bg-success">
                     <h4 class="card-title">Ports opened today:</h4>
-                   <h2>100</h2>
+                    <h2>100</h2>
                     <h4 class="card-title">Last week:</h4>
                     <h2>700</h2>
                     <div class="icon">
@@ -70,7 +61,6 @@
             </div>
         </div>
     </div>
-</div>
 
-<?php require_once "views/partials/user.php";?>
+
 <?php require_once "views/partials/footer.php"; ?>

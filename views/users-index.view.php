@@ -1,6 +1,9 @@
-
 <?php require_once "views/partials/header.php"; ?>
 
+<div class="col-3">
+    <?php require_once "views/partials/user.php";?>
+</div>
+<div class="col-9">
 <div class="container-fluid table">
     <div class="tableTitle">
         <a href="/users/create" class="btn btn-info">Add new Post</a>
@@ -31,5 +34,6 @@
     </div>
 </div>
 
-<?php require_once "views/partials/user.php";?>
 <?php require_once "views/partials/footer.php"; ?>
+
+

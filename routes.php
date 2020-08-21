@@ -101,9 +101,15 @@ $router->get('register', 'AuthController@register_form');
 $router->post('register', 'AuthController@register');
 $router->get('logout', 'AuthController@logout');
 
+//CONTACT
 $router->get('contact', 'PagesController@contact');
 
 
+//DEPARTURE TIME
+$router->get('departure_times', 'DepartureTimes@index');
+
+//API DEPARTURE TIMES
+$router->get('api/departure_times', 'ApiDepartureTimes@index');
 
 
 

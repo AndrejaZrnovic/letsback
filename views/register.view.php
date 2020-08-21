@@ -1,7 +1,7 @@
 <?php require_once "views/partials/header.php"; ?>
   <div class="container-fluid">
     <div class="register" >
-        <h3>Sign Up</h3
+        <h3>Sign Up Katarina</h3>
             <form action="/register" method="post">
                 <div class="form-group">
                     <label for="name">Name</label>
