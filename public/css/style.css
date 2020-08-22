@@ -249,11 +249,8 @@ body{
     text-align: center;
     width:600px;
     height: 600px;
-    /*border: 1px solid black;*/
-    margin-top:50px;
-    /*background-color: lightgrey;*/
-}
 
+}
 
 .contactWrapper h1{
     padding:20px 0 20px 0;
