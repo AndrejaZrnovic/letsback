@@ -1,3 +1,5 @@
+# Final project - august 2020
+
 ### Instructions for the Backend part - WBD5100:
 
 - Clone the reposytory and open preferably in PHP Strome code editor.
