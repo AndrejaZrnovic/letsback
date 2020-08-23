@@ -1,4 +1,7 @@
-# Final project - august 2020
+# Final project - august 2020 / Backend
+
+### This project consists of both frontend and backend part, so it was combined as one idea. 
+* Backend was made with PHP and SQL.
 
 ### Instructions for the Backend part - WBD5100:
 
