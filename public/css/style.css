@@ -103,9 +103,9 @@ body{
 
 .card{
 
-    height:250px;
+    height:240px;
     padding: 30px;
-    margin-top: 5px;
+    margin-top: 10px;
 
 }
 
@@ -129,6 +129,12 @@ body{
 
 .backArrowCreate{
     margin-top:30px;
+
+}
+
+.backArrowCreateOrders{
+    margin-top:-30px;
+    margin-left: 100px;
 
 }
 

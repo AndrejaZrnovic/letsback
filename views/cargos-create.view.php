@@ -2,7 +2,7 @@
 
 <div class="container-fluid">
     <div class="actionDiv">
-        <div class="action-title"><h4>Add new element in <span>Cargos</span>:</h4></div>
+        <div class="action-title"><h4>Add new <span>cargo</span>:</h4></div>
         <form action="/cargos" method="post">
             <div class="form-group">
                 <label for="type">Type:</label>

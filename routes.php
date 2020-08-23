@@ -95,23 +95,24 @@ $router->get('api/users/destroy', 'ApiUsersController@destroy');
 
 
 
-// USERS
+// FORMS
 
 $router->get('forms', 'FormsController@index');
-$router->get('forms/create', 'FormsController@create');
-$router->post('forms/create', 'FormsController@store');
-$router->get('forms/show', 'FormsController@show');
-$router->get('forms/edit', 'FormsController@edit');
-$router->post('forms/edit', 'FormsController@update');
-$router->get('forms/destroy', 'FormsController@destroy');
 
-// API USERS
+
+// API FORMS
 
 $router->get('api/forms', 'ApiFormsController@index');
-$router->post('api/forms', 'ApiFormsController@store');
-$router->get('api/forms/show', 'ApiFormsController@show');
-$router->post('api/forms/edit', 'ApiFormsController@update');
-$router->get('api/forms/destroy', 'ApiFormsController@destroy');
+
+
+// MESSAGES
+
+$router->get('messages', 'MessagesController@index');
+
+
+// API MESSAGES
+
+$router->get('api/messages', 'ApiMessagesController@index');
 
 //LOGIN
 

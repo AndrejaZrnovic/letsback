@@ -21,7 +21,7 @@
                 <input name="cargo" id="cargo" cols="30" rows="10" class="form-control">
             </div>
             <button type="submit" class="btn btn-primary">Create</button>
-            <div class="backArrowCreate">
+            <div class="backArrowCreateOrders">
                 <a href="/orders">
                     <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-90deg-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" d="M6.104 2.396a.5.5 0 0 1 0 .708L3.457 5.75l2.647 2.646a.5.5 0 1 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0z"/>

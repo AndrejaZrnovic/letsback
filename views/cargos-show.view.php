@@ -2,7 +2,7 @@
 
 <div class="container-fluid">
     <div class="actionDiv">
-        <div class="action-title"><h4>Information about <span>cargo</span>:</h4></div>
+        <div class="action-title"><h4>Information about the <span>cargo</span>:</h4></div>
         <div class="showTables">
             <h5>Type: <span><?= $cargo->type ?></span></h5>
         </div>
