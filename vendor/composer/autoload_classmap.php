@@ -7,11 +7,13 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'App\\Controllers\\ApiCargosController' => $baseDir . '/controllers/ApiCargosController.php',
+    'App\\Controllers\\ApiFormsController' => $baseDir . '/controllers/ApiFormsController.php',
     'App\\Controllers\\ApiOrdersController' => $baseDir . '/controllers/ApiOrdersController.php',
     'App\\Controllers\\ApiPortsController' => $baseDir . '/controllers/ApiPortsController.php',
     'App\\Controllers\\ApiShipsController' => $baseDir . '/controllers/ApiShipsController.php',
     'App\\Controllers\\AuthController' => $baseDir . '/controllers/AuthController.php',
     'App\\Controllers\\CargosController' => $baseDir . '/controllers/CargosController.php',
+    'App\\Controllers\\FormsController' => $baseDir . '/controllers/FormsController.php',
     'App\\Controllers\\OrdersController' => $baseDir . '/controllers/OrdersController.php',
     'App\\Controllers\\PagesController' => $baseDir . '/controllers/PagesController.php',
     'App\\Controllers\\PortsController' => $baseDir . '/controllers/PortsController.php',

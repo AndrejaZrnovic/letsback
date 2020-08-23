@@ -1,15 +1,15 @@
 <?php require_once "views/partials/header.php"; ?>
 
 
-<div class="col-3">
+<div class="col-sm-3">
     <?php require_once "views/partials/user.php";?>
 </div>
-<div class="col-9">
+<div class="col-sm-9">
     <div class="container-fluid fourDivsMainPage">
         <div class="row">
             <div class="col-6">
                 <div class="card bg-primary">
-                    <h4 class="card-title">Ship departured:</h4>
+                    <h4 class="card-title">Ships departured:</h4>
                     <h2>300</h2>
                     <h4 class="card-title">Last week:</h4>
                     <h2>4000</h2>
@@ -61,6 +61,7 @@
             </div>
         </div>
     </div>
+</div>
 
 
 <?php require_once "views/partials/footer.php"; ?>

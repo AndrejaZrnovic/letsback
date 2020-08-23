@@ -2,8 +2,8 @@
 <?php require_once "views/partials/header.php"; ?>
 
 <div class="container-fluid">
-    <div class="edit">
-        <div class="edit-title"><h4>Edit Information:</h4></div>
+    <div class="actionDiv">
+        <div class="action-title"><h4>Edit Information about the <span>user</span>:</h4></div>
         <form action="/users/edit" method="post">
             <input type="hidden" name="id" value="<?= $user->id ?>">
             <div class="form-group">

@@ -2,13 +2,13 @@
 <?php require_once "views/partials/header.php"; ?>
 
 <div class="container-fluid">
-    <div class="edit">
-        <div class="edit-title"><h4>Edit Information:</h4></div>
+    <div class="actionDiv">
+        <div class="action-title"><h4>Edit Information about the <span>cargo:</span></h4></div>
         <form action="//edit" method="post">
             <input type="hidden" name="id" value="<?= $cargo->id ?>">
             <div class="form-group">
                 <label for="type"><h5>Type</h5></label>
-                <textarea name="type" id="type" cols="30" rows="10" class="form-control"><?= $cargo->type ?></textarea>
+                <input type="text" id="type" name="type" class="form-control" value="<?= $cargo->type ?>">
             </div>
             <div class="editBtn">
                 <button type="submit" class="btn btn-primary">Edit</button>

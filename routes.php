@@ -5,7 +5,7 @@
 $router->get('','PagesController@home');
 $router->get('ships', 'ShipsController@index');
 $router->get('ships/create', 'ShipsController@create');
-$router->post('ships', 'ShipsController@store');
+$router->post('ships/create', 'ShipsController@store');
 $router->get('ships/show', 'ShipsController@show');
 $router->get('ships/edit', 'ShipsController@edit');
 $router->post('ships/edit', 'ShipsController@update');
@@ -23,7 +23,7 @@ $router->get('api/ships/destroy', 'ApiShipsController@destroy');
 
 $router->get('cargos', 'CargosController@index');
 $router->get('cargos/create', 'CargosController@create');
-$router->post('cargos', 'CargosController@store');
+$router->post('cargos/create', 'CargosController@store');
 $router->get('cargos/show', 'CargosController@show');
 $router->get('cargos/edit', 'CargosController@edit');
 $router->post('cargos/edit', 'CargosController@update');
@@ -41,7 +41,7 @@ $router->get('api/cargos/destroy', 'ApiCargosController@destroy');
 
 $router->get('orders', 'OrdersController@index');
 $router->get('orders/create', 'OrdersController@create');
-$router->post('orders', 'OrdersController@store');
+$router->post('orders/create', 'OrdersController@store');
 $router->get('orders/show', 'OrdersController@show');
 $router->get('orders/edit', 'OrdersController@edit');
 $router->post('orders/edit', 'OrdersController@update');
@@ -60,7 +60,7 @@ $router->get('api/orders/destroy', 'ApiOrdersController@destroy');
 
 $router->get('ports', 'PortsController@index');
 $router->get('ports/create', 'PortsController@create');
-$router->post('ports', 'PortsController@store');
+$router->post('ports/create', 'PortsController@store');
 $router->get('ports/show', 'PortsController@show');
 $router->get('ports/edit', 'PortsController@edit');
 $router->post('ports/edit', 'PortsController@update');
@@ -79,7 +79,7 @@ $router->get('api/ports/destroy', 'ApiPortsController@destroy');
 
 $router->get('users', 'UsersController@index');
 $router->get('users/create', 'UsersController@create');
-$router->post('users', 'UsersController@store');
+$router->post('users/create', 'UsersController@store');
 $router->get('users/show', 'UsersController@show');
 $router->get('users/edit', 'UsersController@edit');
 $router->post('users/edit', 'UsersController@update');
@@ -92,6 +92,26 @@ $router->post('api/users', 'ApiUsersController@store');
 $router->get('api/users/show', 'ApiUsersController@show');
 $router->post('api/users/edit', 'ApiUsersController@update');
 $router->get('api/users/destroy', 'ApiUsersController@destroy');
+
+
+
+// USERS
+
+$router->get('forms', 'FormsController@index');
+$router->get('forms/create', 'FormsController@create');
+$router->post('forms/create', 'FormsController@store');
+$router->get('forms/show', 'FormsController@show');
+$router->get('forms/edit', 'FormsController@edit');
+$router->post('forms/edit', 'FormsController@update');
+$router->get('forms/destroy', 'FormsController@destroy');
+
+// API USERS
+
+$router->get('api/forms', 'ApiFormsController@index');
+$router->post('api/forms', 'ApiFormsController@store');
+$router->get('api/forms/show', 'ApiFormsController@show');
+$router->post('api/forms/edit', 'ApiFormsController@update');
+$router->get('api/forms/destroy', 'ApiFormsController@destroy');
 
 //LOGIN
 

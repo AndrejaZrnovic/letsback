@@ -11,11 +11,13 @@ class OrdersController
         $orders = App::get('database')->getAll('orders');
 
         return view('orders-index', compact('orders'));
+
     }
 
     public function create()
     {
         return view('orders-create');
+
     }
 
     public function store()
@@ -24,21 +26,28 @@ class OrdersController
         App::get('database')->insert('orders', $_POST);
 
         return redirect('/orders');
+
     }
 
     public function show()
     {
         $order = App::get('database')->getOne('orders', $_GET['id']);
 
+
         return view('orders-show', compact('order'));
+
     }
 
     public function edit()
     {
+
         $order = App::get('database')->getOne('orders', $_GET['id']);
 
         return view('orders-edit', compact('order'));
+
     }
+
+
 
     public function update()
     {
@@ -46,6 +55,7 @@ class OrdersController
         App::get('database')->update('orders', $_POST);
 
         return redirect('/orders');
+
     }
 
     public function destroy()

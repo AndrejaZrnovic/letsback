@@ -1,17 +1,17 @@
 <?php require_once "views/partials/header.php"; ?>
 
 <div class="container-fluid">
-    <div class="edit">
-        <div class="edit-title"><h4>Edit Information:</h4></div>
+    <div class="actionDiv">
+        <div class="action-title"><h4>Edit Information about the <span>ship</span>:</h4></div>
         <form action="//edit" method="post">
             <input type="hidden" name="id" value="<?= $ship->id ?>">
             <div class="form-group">
                 <label for="name"><h5>Name</h5></label>
-                <input type="text" id="name" name="name" class="form-control" value="<?= $ship->name ?>">
+                <input type="text" id="name" name="name" class="form-control" value="<?= $ship->shipName ?>">
             </div>
             <div class="form-group ">
                 <label for="type"><h5>Type</h5></label>
-                <textarea name="type" id="type" cols="30" rows="5" class="form-control"><?= $ship->type ?></textarea>
+                <input type="text" id="type" name="type" class="form-control" value="<?= $ship->type ?>">
             </div>
             <div class="editBtn">
                 <button type="submit" class="btn btn-primary">Edit</button>

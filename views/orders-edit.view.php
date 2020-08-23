@@ -1,17 +1,25 @@
 <?php require_once "views/partials/header.php"; ?>
 
 <div class="container-fluid">
-    <div class="edit">
-        <div class="edit-title"><h4>Edit Information:</h4></div>
+    <div class="actionDivOrder">
+        <div class="action-title"><h4>Edit Information about the <span>order</span>:</h4></div>
         <form action="/orders/edit" method="post">
             <input type="hidden" name="id" value="<?= $order->id ?>">
             <div class="form-group">
-                <label for="title">Title</label>
-                <input type="text" id="title" name="title" class="form-control" value="<?= $order->title ?>">
+                <label for="customer_id">Customer Id</label>
+                <input type="text" id="customer_id" name="customer_id" class="form-control" value="<?= $order->customer_id ?>">
             </div>
             <div class="form-group">
-                <label for="body">Body</label>
-                <textarea name="body" id="body" cols="30" rows="10" class="form-control"><?= $order->body ?></textarea>
+                <label for="ship_id">Ship Id</label>
+                <input type="text" id="ship_id" name="ship_id" class="form-control" value="<?= $order->ship_id?>">
+            </div>
+            <div class="form-group">
+                <label for="port_id">Port Id</label>
+                <input type="text" id="port_id" name="port_id" class="form-control" value="<?= $order->port_id?>">
+            </div>
+            <div class="form-group">
+                <label for="cargo_id">Cargo Id</label>
+                <input type="text" id="cargo_id" name="cargo_id" class="form-control" value="<?= $order->cargo_id?>">
             </div>
             <div class="editBtn">
                 <button type="submit" class="btn btn-primary">Edit

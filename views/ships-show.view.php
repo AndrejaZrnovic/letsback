@@ -2,11 +2,11 @@
 
 
 <div class="container-fluid">
-    <div class="show">
-        <div class="show-title"><h4>Show Information:</h4></div>
+    <div class="actionDiv">
+        <div class="action-title"><h4>Information about the <span>ship</span>:</h4></div>
         <div class="showTables">
-            <h5>Ship: <?= $ship->name ?></h5>
-            <h5>Type:<?= $ship->type ?></h5>
+            <h5>Ship: <span><?= $ship->shipName ?></span></h5>
+            <h5>Type: <span><?= $ship->type ?></span></h5>
             <div class="backArrowShow">
                 <a href="/ships">
                     <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-90deg-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">

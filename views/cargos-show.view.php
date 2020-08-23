@@ -1,10 +1,10 @@
 <?php require_once "views/partials/header.php"; ?>
 
 <div class="container-fluid">
-    <div class="show">
-        <div class="show-title"><h4>Information:</h4></div>
+    <div class="actionDiv">
+        <div class="action-title"><h4>Information about <span>cargo</span>:</h4></div>
         <div class="showTables">
-            <h5>Type: <?= $cargo->type ?></h5>
+            <h5>Type: <span><?= $cargo->type ?></span></h5>
         </div>
         <div class="backArrowShow">
             <a href="/cargos">

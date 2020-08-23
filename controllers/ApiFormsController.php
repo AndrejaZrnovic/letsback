@@ -3,14 +3,14 @@
 namespace App\Controllers;
 use App\Core\App;
 
-class ApiCargosController {
+class ApiFormsController {
 
     public function index()
     {
         $user = api_check_auth();
-        $cargos = App::get('database')->getOneByField('cargos', ['user_id' => $user->id]);
+        $forms = App::get('database')->getOneByField('forms', ['user_id' => $user->id]);
 
-        echo json_encode($cargos);
+        echo json_encode($forms);
     }
 
 
@@ -18,7 +18,7 @@ class ApiCargosController {
     {
 
         //uraditi prethodno sanitizaciju i validaciju !
-        App::get('database')->insert('cargos', $_POST);
+        App::get('database')->insert('forms', $_POST);
         return [
             'status' => 'ok'
         ];
@@ -26,15 +26,15 @@ class ApiCargosController {
 
     public function show()
     {
-        $cargo = App::get('database')->getOne('cargos', $_GET['id']);
+        $form = App::get('database')->getOne('forms', $_GET['id']);
 
-        echo json_encode($cargo);
+        echo json_encode($form);
     }
 
     public function update()
     {
         //uraditi validaciju
-        App::get('database')->update('cargos', $_POST);
+        App::get('database')->update('forms', $_POST);
         return [
             'status' => 'ok'
         ];
@@ -42,7 +42,7 @@ class ApiCargosController {
 
     public function destroy()
     {
-        App::get('database')->delete('cargos', $_GET['id']);
+        App::get('database')->delete('forms', $_GET['id']);
 
         return [
             'status' => 'ok'
