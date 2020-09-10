@@ -7,20 +7,16 @@ namespace Composer\Autoload;
 class ComposerStaticInit6a647b81a8b1b875f022c6313e1c4257
 {
     public static $classMap = array (
-        'App\\Controllers\\ApiCargosController' => __DIR__ . '/../..' . '/controllers/ApiCargosController.php',
         'App\\Controllers\\ApiFormsController' => __DIR__ . '/../..' . '/controllers/ApiFormsController.php',
         'App\\Controllers\\ApiMessagesController' => __DIR__ . '/../..' . '/controllers/ApiMessagesController.php',
-        'App\\Controllers\\ApiOrdersController' => __DIR__ . '/../..' . '/controllers/ApiOrdersController.php',
         'App\\Controllers\\ApiPortsController' => __DIR__ . '/../..' . '/controllers/ApiPortsController.php',
-        'App\\Controllers\\ApiShipsController' => __DIR__ . '/../..' . '/controllers/ApiShipsController.php',
+        'App\\Controllers\\ApiMoviesController' => __DIR__ . '/../..' . '/controllers/ApiMoviesController.php',
         'App\\Controllers\\AuthController' => __DIR__ . '/../..' . '/controllers/AuthController.php',
-        'App\\Controllers\\CargosController' => __DIR__ . '/../..' . '/controllers/CargosController.php',
         'App\\Controllers\\FormsController' => __DIR__ . '/../..' . '/controllers/FormsController.php',
         'App\\Controllers\\MessagesController' => __DIR__ . '/../..' . '/controllers/MessagesController.php',
-        'App\\Controllers\\OrdersController' => __DIR__ . '/../..' . '/controllers/OrdersController.php',
         'App\\Controllers\\PagesController' => __DIR__ . '/../..' . '/controllers/PagesController.php',
         'App\\Controllers\\PortsController' => __DIR__ . '/../..' . '/controllers/PortsController.php',
-        'App\\Controllers\\ShipsController' => __DIR__ . '/../..' . '/controllers/ShipsController.php',
+        'App\\Controllers\\MoviesController' => __DIR__ . '/../..' . '/controllers/MoviesController.php',
         'App\\Controllers\\UsersController' => __DIR__ . '/../..' . '/controllers/UsersController.php',
         'App\\Core\\App' => __DIR__ . '/../..' . '/core/App.php',
         'App\\Core\\Database\\Database' => __DIR__ . '/../..' . '/core/database/Database.php',

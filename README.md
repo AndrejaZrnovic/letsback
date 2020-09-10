@@ -1,4 +1,4 @@
-# Final project - august 2020 / Backend
+# Final project - sep 2020 / Backend
 
 ### This project consists of both frontend and backend part, so it was combined as one idea. 
 * Backend was made with PHP and SQL.

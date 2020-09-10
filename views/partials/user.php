@@ -1,4 +1,4 @@
-<div class="user">
+ <div class="user">
     <div class="avatar">
         <?php if(isset($_SESSION['user'])) : ?>
             <h4>User:</h4> <?= $_SESSION['user']->name; ?>
@@ -44,6 +44,7 @@
                         </svg>Contact</a>
                 </div>
             </div>
+
         <?php endif;?>
     </div>
 </div>

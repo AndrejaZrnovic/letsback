@@ -1,15 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="339a3c55-281c-4f5e-b11c-d83ac9cbbf5c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/black.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/ApiCargosController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/ApiOrdersController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/ApiPortsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/ApiShipsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/ApiMoviesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/CargosController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/OrdersController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/PortsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/ShipsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/MoviesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/bckground.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/cargo-ship.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/radar.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/cargos-create.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/cargos-create.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/cargos-show.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/cargos-show.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/orders-create.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/orders-create.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/cargos-create.view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/cargos-edit.view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/cargos-index.view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/cargos-show.view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/orders-create.view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/orders-edit.view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/orders-index.view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/orders-show.view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/ports-create.view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/ports-edit.view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/ports-index.view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/ports-show.view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/ships-create.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/movies-create.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/ships-edit.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/movies-edit.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/ships-index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/movies-index.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/ships-show.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/movies-show.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/users-index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/users-index.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,23 +78,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,26 +89,29 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1g0RKsNq66AwO9Bkcz0l52qm5t8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../final_2020" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views" />
       <recent name="C:\laragon\www\final-august-2020\views" />
       <recent name="C:\laragon\www\final-august-2020\views\users-view" />
       <recent name="C:\laragon\www\final-august-2020\views\ships-view" />
       <recent name="C:\laragon\www\final-august-2020" />
-      <recent name="C:\laragon\www\final-august-2020\public\core" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -103,21 +150,53 @@
       <workItem from="1598177856462" duration="2749000" />
       <workItem from="1598204107474" duration="9144000" />
       <workItem from="1598216426041" duration="454000" />
+      <workItem from="1599089885333" duration="1879000" />
+      <workItem from="1599239498930" duration="906000" />
+      <workItem from="1599244548640" duration="700000" />
+      <workItem from="1599266938848" duration="1258000" />
+      <workItem from="1599309116869" duration="5009000" />
+      <workItem from="1599399904276" duration="270000" />
+      <workItem from="1599401979703" duration="732000" />
+      <workItem from="1599577070012" duration="19660000" />
+      <workItem from="1599684418685" duration="15972000" />
+      <workItem from="1599730503697" duration="4045000" />
+      <workItem from="1599734759986" duration="155000" />
+      <workItem from="1599735060805" duration="2758000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597328464128">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="395" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599598411120">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="361" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1597328464128" />
+    <state x="395" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1599598411120" />
     <state x="538" y="222" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597356376772">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="538" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1597356376772" />
+    <state x="541" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599730663966">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="541" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1599730663966" />
     <state width="242" height="189" key="DatabaseViewActions_Filter" timestamp="1597328447358">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -142,28 +221,19 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="477" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1598216499688" />
+    <state x="541" y="157" width="598" height="735" key="find.popup" timestamp="1599324589627">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="541" y="157" width="598" height="735" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1599324589627" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1598214691321">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1598214691321" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1598136694561">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="471" y="146" width="735" height="904" key="search.everywhere.popup" timestamp="1599728852204">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1598136694561" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/views/cargos-index.view.php</url>
-          <line>25</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/views/contact.view.php</url>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="471" y="146" width="735" height="904" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1599728852204" />
+    <state x="471" y="166" width="735" height="884" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1599598095745" />
   </component>
 </project>
