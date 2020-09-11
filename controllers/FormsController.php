@@ -23,7 +23,7 @@ class FormsController
     public function store()
     {
         $formData = json_decode(file_get_contents('php://input'), ARRAY_FILTER_USE_KEY);
-        //uraditi prethodno sanitizaciju i validaciju !
+
         App::get('database')->insert('forms', $formData['formData']);
 
         return redirect('/forms');

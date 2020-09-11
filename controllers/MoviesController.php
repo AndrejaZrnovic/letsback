@@ -42,6 +42,7 @@ class MoviesController
 
     public function update()
     {
+
         //uraditi validaciju
         App::get('database')->update('movies', $_POST);
 

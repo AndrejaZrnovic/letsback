@@ -3,11 +3,11 @@
 <div class="container-fluid">
     <div class="actionDiv">
         <div class="action-title"><h4>Edit Information about the <span>movie</span>:</h4></div>
-        <form action="//edit" method="post">
+        <form action="/movies/edit" method="post">
             <input type="hidden" name="id" value="<?= $movie->id ?>">
             <div class="form-group">
                 <label for="name"><h5>Name</h5></label>
-                <input type="text" id="name" name="name" class="form-control" value="<?= $movie->movieName ?>">
+                <input type="text" id="name" name="movieName" class="form-control" value="<?= $movie->movieName ?>">
             </div>
             <div class="form-group ">
                 <label for="type"><h5>Genre</h5></label>

@@ -26,7 +26,7 @@
                                 <td><?= $movie->movieName ?></td>
                                 <td><?= $movie->type ?></td>
                                 <td><a href="/movies/show?id=<?= $movie->id ?>" class="btn btn-light">Show</a> <a href="/movies/edit?id=<?=
-                                    $movie->id ?>" class="btn btn-secondary">Edit</a> <a href="/movie/destroy?id=<?=
+                                    $movie->id ?>" class="btn btn-secondary">Edit</a> <a href="/movies/destroy?id=<?=
                                     $movie->id ?>" class="btn btn-danger">Delete</a></td>
                             </tr>
                         <?php endforeach; ?>

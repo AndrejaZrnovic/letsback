@@ -26,50 +26,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="339a3c55-281c-4f5e-b11c-d83ac9cbbf5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/black.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/ApiCargosController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/ApiOrdersController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/ApiPortsController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/ApiShipsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/ApiMoviesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/CargosController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/OrdersController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/PortsController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/ShipsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/MoviesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/bckground.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/cargo-ship.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/radar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/cargos-create.view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/cargos-edit.view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/cargos-index.view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/cargos-show.view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/orders-create.view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/orders-edit.view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/orders-index.view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/orders-show.view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/ports-create.view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/ports-edit.view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/ports-index.view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/ports-show.view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/ships-create.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/movies-create.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/ships-edit.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/movies-edit.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/ships-index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/movies-index.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/ships-show.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/movies-show.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/users-index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/users-index.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/FormsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/FormsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/MoviesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/MoviesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/forms-index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/forms-index.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/movies-edit.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/movies-edit.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/movies-index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/movies-index.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/users-show.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/users-show.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,6 +126,15 @@
       <workItem from="1599730503697" duration="4045000" />
       <workItem from="1599734759986" duration="155000" />
       <workItem from="1599735060805" duration="2758000" />
+      <workItem from="1599745826303" duration="336000" />
+      <workItem from="1599746220901" duration="46000" />
+      <workItem from="1599746269176" duration="106000" />
+      <workItem from="1599746546696" duration="2561000" />
+      <workItem from="1599758880004" duration="668000" />
+      <workItem from="1599764961603" duration="4033000" />
+      <workItem from="1599773628472" duration="460000" />
+      <workItem from="1599774599855" duration="3306000" />
+      <workItem from="1599818454386" duration="911000" />
     </task>
     <servers />
   </component>

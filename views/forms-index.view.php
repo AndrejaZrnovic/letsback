@@ -11,27 +11,24 @@
                 <a href="/forms/create" class="btn btn-info">Add new Post</a>
             </div>
             <div class="titlePage">
-                <h2>Orders:</h2>
+                <h2>FORMS</h2>
             </div>
         </div>
         <div class="row wrapperTable">
             <div class="col-12">
                 <table class="table">
-                    <thead class="thead-dark">
+                    <thead class="thead">
                     <tr>
                         <th>Customer</th>
-                        <th>Ship</th>
-                        <th>Port</th>
-                        <th>Cargo</th>
-                        <th>Actions</th>
+                        <th>Movie</th>
+                        <th>Genre</th>
                     </tr>
                     </thead>
                     <?php foreach ($forms as $form): ?>
                         <tr>
                             <td><?= $form->customer_id ?></td>
-                            <td><?=  $form->ship_id?></td>
-                            <td><?=  $form->port_id?></td>
-                            <td><?=  $form->cargo_id?></td>
+                            <td><?=  $form->movie_id?></td>
+                            <td><?=  $form->genre_id?></td>
                             <td><a href="/orders/show?id=<?=  $form->id ?>" class="btn btn-info">Show</a> <a href="/ forms/edit?id=<?=
                                 $form->id ?>" class="btn btn-warning">Edit</a> <a href="/ forms/destroy?id=<?=
                                 $form->id ?>" class="btn btn-danger">Delete</a></td>
